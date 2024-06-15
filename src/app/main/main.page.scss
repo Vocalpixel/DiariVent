@@ -1,0 +1,132 @@
+.container {
+  padding: 20px;
+  background-color: #e8e8e8;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 20px;
+}
+
+.card-login {
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #a9a9a9;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 10px;
+  align-content:space-between;
+}
+
+.imgCont {
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.mainImg {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.contLogText {
+  height: fit-content;
+  width: 100%;
+  padding: 10px;
+}
+
+.logText {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  color: #333333;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.contForm {
+  height: fit-content;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
+}
+
+.logInput {
+  width: 100%;
+  height: 50px;
+  background-color: #e8e8e8;
+  border: 1px solid #012538;
+  border-radius: 10px;
+  color: #333333;
+  padding: 20px;
+}
+
+.logBtn {
+  width: 100%;
+  height: 50px;
+  background-color: #012538;
+  border-radius: 10px;
+}
+
+.textLogBtn {
+  color: #e8e8e8;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+}
+
+.contOption {
+  height: fit-content;
+  width: 100%;
+  padding: 10px;
+}
+
+.textOpt {
+  font-size: 15px;
+  text-align: center;
+  color: #333333;
+  margin: 0px;
+}
+
+.margText {
+  margin-bottom: 10px;
+}
+
+.oColor {
+  color: #18768e;
+}
+
+.social-bar {
+  height: fit-content;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #a9a9a9;
+  border-radius: 20px;
+}
+
+.social-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+}
