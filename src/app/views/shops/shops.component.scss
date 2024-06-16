@@ -1,9 +1,9 @@
-*{
+* {
   color: #333333;
 }
 
 .container {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #e8e8e8;
@@ -17,8 +17,8 @@
 .titleSection {
   width: 100%;
   height: fit-content;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #333333;
   display: flex;
   align-items: center;
@@ -26,12 +26,12 @@
   margin-bottom: 10px;
 }
 
-.titleText{
+.titleText {
   margin: 0px;
   font-weight: 550;
 }
 
-.iconUser{
+.iconUser {
   width: 45px;
   height: 45px;
   display: flex;
@@ -42,81 +42,16 @@
   font-size: 25px;
 }
 
-.card-shop {
-  height: fit-content;
-  width: 100%;
-  padding: 10px;
-  background-color: #a9a9a9;
-  border-radius: 20px;
-  margin-bottom: 10px;
-  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
-  display: flex;
-  align-items: center;
-}
-
-.imgCont{
-  height: 100px;
-  width: 100px;
-  padding: 5px;
-  background-color: #FDFDFD;
-  border-radius: 10px;
-  margin-right: 10px;
-  flex-shrink: 0;
-}
-
-.img{
-  height: 100%;
-  width: 100%;
-  background-color: #333333;
-}
-
-.desSection{
-  height: 100px;
-  width: 100%;
-  flex-grow: 1;
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.titleSec{
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
-}
-
-.btnOpt{
-  height: 25px;
-  width: 30px;
-  background-color: #E8E8E8;
-  border-radius: 5px;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  text-align: center;
-}
-
-.title{
-  font-size: 20px;
-  font-weight: 550;
-}
-
-.description{
-  margin-top: 5px;
-  font-size: 12px;
-}
-
-.btnAdd{
+.btnAdd {
   margin-top: 10px;
   height: 60px;
   width: 60px;
   border-radius: 10px;
-  color: #E8E8E8;
-  background-color: #18768E;
+  color: #e8e8e8;
+  background-color: #18768e;
   font-size: 15px;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   text-align: center;
 }

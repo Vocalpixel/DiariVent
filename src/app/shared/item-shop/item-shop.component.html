@@ -1,0 +1,24 @@
+<div class="card-shop">
+  <div class="imgCont">
+    <div class="img" [style.background-image]="'url(' + item.urlImagen + ')'"></div>
+  </div>
+  <div class="desSection">
+    <div class="titleSec">
+      <div class="title">{{ item.nombre }}</div>
+      <mat-icon
+        class="pi pi-ellipsis-h btnOpt"
+        [matMenuTriggerFor]="menu"
+      ></mat-icon>
+    </div>
+    <div class="description">{{ item.descripcion }}</div>
+  </div>
+</div>
+
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)="firstAction()">
+    Editar
+  </button>
+  <button mat-menu-item (click)="secondAction()">
+    Eliminar
+  </button>
+</mat-menu>

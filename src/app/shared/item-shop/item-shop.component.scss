@@ -1,0 +1,82 @@
+.card-shop {
+  height: fit-content;
+  width: 100%;
+  padding: 10px;
+  background-color: #a9a9a9;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+.imgCont {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.desSection {
+  height: 100px;
+  width: 100%;
+  flex-grow: 1;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.titleSec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.btnOpt {
+  height: 25px;
+  width: 30px;
+  background-color: #e8e8e8;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.description {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+//DropDownColors*****
+::ng-deep .mat-mdc-menu-panel {
+  border-radius: 10px !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5) !important;
+}
+
+::ng-deep .mat-mdc-menu-content {
+  padding: 0px !important;
+}
+
+.mat-mdc-menu-item {
+  min-height: 37.5px !important;
+  text-align: center !important;
+  background-color: #e8e8e8 !important;
+  color: #333333 !important;
+}
+//********************

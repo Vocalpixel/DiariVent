@@ -1,23 +1,12 @@
 <div class="container">
-
   <div class="titleSection">
     <h1 class="titleText">Shops</h1>
     <div class="pi pi-user iconUser"></div>
   </div>
 
-  <div class="card-shop">
-    <div class="imgCont">
-      <div class="img"></div>
-    </div>
-    <div class="desSection">
-      <div class="titleSec">
-        <div class="title">Tamales</div>
-        <div class="pi pi-ellipsis-h btnOpt"></div>
-      </div>
-      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
-    </div>
-  </div>
+  <ng-container *ngFor="let item of items">
+    <app-item-shop [item]="item"></app-item-shop>
+  </ng-container>
 
   <div class="pi pi-plus btnAdd"></div>
-
 </div>
